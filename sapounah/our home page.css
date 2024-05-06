@@ -1,0 +1,150 @@
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(227, 207, 228);
+    color: rgb(14, 8, 27);
+  }
+  header {
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(247, 72, 188);
+    color: rgb(241, 235, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 70px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #2d803f;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+  .container {
+     position: relative;
+      width: 100%;
+       height: 600px;
+        overflow: hidden; 
+    }
+  .slider {
+     width: 300%;
+      /* Adjust as necessary based on the number of product images */
+       height: 100%;
+        display:0; 
+        transition: transform 3s; 
+    } 
+  .slider img {
+     width: 33.33%;
+      /* Adjust based on the width of the slider container and the number of product images */ 
+      height: 100%; 
+      object-fit: cover;
+     }
+  .details-box { 
+    position: absolute;
+     top: 50px;
+      left: 50px;
+       padding: 70px;
+        background-color: rgb(66, 23, 23);
+         opacity: 0.8;
+         }
+  h2, p { 
+    margin: 0; 
+  }
+  button {
+     background-color: #333;
+      color: white; 
+      border: none;
+       padding: 10px 20px;
+        margin-top: 10px;
+
+     }
+     
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 5px 5px 15px rgb(209, 184, 255);
+  }
+  .product img {
+    max-width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  footer{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(35, 83, 73);
+    color: rgb(175, 158, 61);
+  }
+  
+.section1 ul a:hover{
+  background-color: rgb(40, 88, 51);
+  border-radius: 10px;
+  color: rgb(107, 106, 206);
+  padding: 10px;
+  
+}
+.p{
+  background-color: aquamarine;
+  text-decoration: none;
+}
+.section3{
+  background-color: #bb4f91;
+  text-decoration: darkmagenta;
+  border-radius: 30px;
+}
+.section5 img{
+  border-radius: 100%;
+}
+@keyframes manzi{
+  0%{border-color: brown;}
+  50%{border-color: blueviolet;}
+  80%{border-color: aqua;}
+  100%{border-color: #bb4f91;}
+}
+p{
+  border: solid green 5px;
+  margin: 10px ;
+  animation-name: manzi;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
