@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(189, 165, 169);
+    margin: 20px;
+}
+.header{
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-left: 50px;
+    background-color: rgb(128, 128, 177);
+    width: 100%;
+    height: 100%;
+}
+a button{
+    border: 2px solid rgb(161, 125, 125);
+    text-align: left;
+}
+.pro{
+    float: left;
+    padding: 20px;
+}
+.cart{
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(55, 55, 83);
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+.search-bar{
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+section{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 50px;border: 10px;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
